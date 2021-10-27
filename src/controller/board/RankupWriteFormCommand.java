@@ -12,8 +12,8 @@ public class RankupWriteFormCommand implements Command{
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
 		ActionForward forward = new ActionForward();
-		forward.setPath("/board/rankUpWriteForm.jsp");
-		return forward;
+		
+		return new ActionForward("/indexControl.jsp?contentTemplate=/board/rankUpWriteForm", false);
 	}
 
 }

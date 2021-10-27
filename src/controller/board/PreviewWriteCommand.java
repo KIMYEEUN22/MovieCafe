@@ -13,9 +13,8 @@ public class PreviewWriteCommand implements Command{
 		
 		
 		ActionForward forward = new ActionForward();
-		forward.setPath("/board/priviewWriteForm.jsp");
-		return forward;
-		
+	//	return new ActionForward("/indexControl.jsp?contentTemplate=/board/previewWriteForm", false);
+		return new ActionForward("/board/previewWriteForm.jsp", false);
 	}
 
 	

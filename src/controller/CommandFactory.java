@@ -1,5 +1,6 @@
 
 
+
 package controller;
 
 import java.lang.reflect.Constructor;
@@ -65,13 +66,13 @@ public class CommandFactory {
 		map.put("/board/tipDetailBoard.do", "controller.board.TipDetailBoardCommand");
 
 		// 게시판 작성
-		map.put("/board/writeBoardForm.do", "controller.board.WriteFormCommand");
+		map.put("/board/tipWrite.do", "controller.board.WriteFormCommand");
 
 		// 리뷰게시판
 		map.put("/board/reviewWriteForm.do", "controller.board.ReviewWriteFormCommand");
 
 		// 시사회정보게시판
-		map.put("/board/previewWriteForm.do", "controller.board.PreviewWriteFormCommand");
+		map.put("/board/previewWriteForm.do", "controller.board.PreviewWriteCommand");
 
 		// 등업게시판
 		map.put("/board/rankupWriteForm.do", "controller.board.RankupWriteFormCommand");

@@ -13,8 +13,7 @@ public class TicketWriteFormCommand implements Command{
 		
 		
 		ActionForward forward = new ActionForward();
-		forward.setPath("/board/ticketBoardForm.jsp");
-		return forward;
+		return new ActionForward("/board/ticketWriteForm.jsp", false);
 		
 		
 		

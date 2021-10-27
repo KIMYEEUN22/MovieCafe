@@ -59,7 +59,7 @@ public class FileUploadServlet extends HttpServlet {
 			BoardService boardService = BoardService.getInstance();
 			boardService.registerBoard(board);
 			
-			response.sendRedirect(request.getContextPath() + "/board/listBoard.do");
+			response.sendRedirect(request.getContextPath() + "/index.jsp");
 			
 		}catch(Exception e2){
 			e2.printStackTrace();

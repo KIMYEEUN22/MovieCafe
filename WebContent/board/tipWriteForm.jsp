@@ -63,7 +63,7 @@ body {
 			<form name="form" id="form" role="form" method="POST" action="${pageContext.request.contextPath}/tipBoardWrite"
 			 enctype="multipart/form-data">
 				<%-- 세션에 있는 아이디  --%>
-				<input type="hidden" name="userId" value="user_1">
+				<input type="hidden" name = "userId" value="test_user01">
 				<%-- 말머리(나중에 수정) --%>
 				<div class="mb-3">
 					<label>말머리</label> <select name="horseNo" id="horseNo">

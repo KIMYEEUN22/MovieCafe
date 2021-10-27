@@ -1,3 +1,4 @@
+
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page session="false" %>
 
@@ -7,3 +8,4 @@
 	<jsp:param name="contentTemplate" value="/main" />
 	
 </jsp:forward>
+

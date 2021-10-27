@@ -159,7 +159,7 @@ h3 {
 		</c:if>
 	</div>
 	
-<c:url var="writeUrl" value="/board/writeBoardForm.do">
+<c:url var="writeUrl" value="/board/tipWrite.do">
 				<c:param name="cateNo" value="${param.cateNo}"></c:param>
 			</c:url>
 			<a href="${writeUrl}">[글쓰기]</a>
